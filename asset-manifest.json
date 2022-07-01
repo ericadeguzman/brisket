@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/brisket/static/css/main.464f9450.css",
-    "main.js": "/brisket/static/js/main.96cb59f1.js",
+    "main.js": "/brisket/static/js/main.de5cde0f.js",
     "index.html": "/brisket/index.html",
     "main.464f9450.css.map": "/brisket/static/css/main.464f9450.css.map",
-    "main.96cb59f1.js.map": "/brisket/static/js/main.96cb59f1.js.map"
+    "main.de5cde0f.js.map": "/brisket/static/js/main.de5cde0f.js.map"
   },
   "entrypoints": [
     "static/css/main.464f9450.css",
-    "static/js/main.96cb59f1.js"
+    "static/js/main.de5cde0f.js"
   ]
 }

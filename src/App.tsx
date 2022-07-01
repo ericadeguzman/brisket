@@ -14,7 +14,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Container sx={{ marginTop: 4, backgroundColor: "white" }} maxWidth="lg">
         <DrawerAppBar />
-        <Typography variant="h1" component="h1">BacooOon</Typography>
+        <Typography variant="h1" component="h1">BacooOon yum</Typography>
       </Container>
     </ThemeProvider>
   );

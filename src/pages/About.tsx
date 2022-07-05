@@ -15,9 +15,9 @@ import theme from "../styles/Styles";
 function About() {
   return (
     <ThemeProvider theme={theme}>
-      <Container sx={{ marginTop: 2, backgroundColor: "white" }} maxWidth="lg">
+      <Container maxWidth="lg">
         <DrawerAppBar />
-        <Box my={2}>
+        <Box my={4}>
           <Typography variant="h1">About</Typography>
         </Box>
       </Container>

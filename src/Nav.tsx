@@ -34,17 +34,27 @@ export default function DrawerAppBar(props: Props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography sx={{ my: 2, fontFamily: 'Source Serif Pro', fontWeight: '400',}}>
-        <RouterLink to={`/`}>Home</RouterLink>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center",
+     }}>
+      <Typography sx={{ my: 2, 
+        fontFamily: 'Bangers',
+        fontSize: 26, 
+        letterSpacing: 2, 
+        fontWeight: '400',
+       textDecoration: 'none',
+       color: 'red',
+        }}>
+        <RouterLink
+         style={{ textDecoration: "none", color: "#00467E",   }}
+        to={`/`}>Home</RouterLink>
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
+            <ListItemButton>
               <RouterLink
-                style={{ textDecoration: "none", color: "#00467E" }}
+                style={{ textDecoration: "none", color: "#00467E", }}
                 to={`/${item}`}
               >
                 <ListItemText primary={item} />
@@ -70,14 +80,14 @@ export default function DrawerAppBar(props: Props) {
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: "none" } }}
           >
-            <MenuIcon />
+            <MenuIcon sx={{color: '#ffc0cb',}}/>
           </IconButton>
           <Typography sx={{ flexGrow: 1,  display: { sm: "block" } }}>
             <RouterLink
-              style={{ textDecoration: "none", color: "white" }}
+              style={{ textDecoration: "none", color: "#ffc0cb" }}
               to={`/`}
             >
-              <Typography sx={{fontFamily: 'Source Serif Pro', fontWeight: '700',}}>Eat Brisket </Typography>
+              <Typography sx={{fontFamily: 'Bangers', letterSpacing: 2,}}>Eat Brisket </Typography>
             </RouterLink>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
@@ -87,11 +97,11 @@ export default function DrawerAppBar(props: Props) {
                 sx={{
                   fontWeight: "400",
                   textTransform: "capitalize",
-                  color: "#fff",
+                  color: "#ffc0cb",
                 }}
               >
                 <RouterLink
-                  style={{ fontFamily: 'Source Serif Pro', textDecoration: "none", color: "white" }}
+                  style={{ fontFamily: 'Bangers', letterSpacing: 2,  textDecoration: "none", color: "#ffc0cb" }}
                   to={`/${item}`}
                 >
                   {item}

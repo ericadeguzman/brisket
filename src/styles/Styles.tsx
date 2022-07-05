@@ -4,8 +4,26 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme ({
     typography: {
       h1: {
-        fontFamily: 'Source Serif Pro',
-        fontWeight: '700',
+        fontFamily: 'Bangers',
+        letterSpacing: 4,
+        color: '#8A0108',
+      },
+      h2: {
+        fontFamily: 'Bangers',
+        letterSpacing: 4,
+        color: '#8A0108',
+      },
+      h3: {
+        color: '#8A0108',
+      },
+      h4: {
+        color: '#8A0108',
+      },
+      h5: {
+        color: '#8A0108',
+      },
+      h6: {
+        color: '#8A0108',
       },
       button: {
         textTransform: 'none',
@@ -14,17 +32,15 @@ const theme = createTheme ({
     },
     palette: {
       background: {
-        default: "#fff",
+        default: "#f7f0e8",
       },
       primary: {
-        light: '#00a6cf',
         main: '#8A0108',
-        dark: '#00467E',
         contrastText: '#fff',
       },
       secondary: {
         light: '#C9C7C7',
-        main: '#D98444',
+        main: '#ff8da1',
         dark: '#4D4D4D',
         contrastText: '#fff',
       },

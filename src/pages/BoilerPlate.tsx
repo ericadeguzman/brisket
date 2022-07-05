@@ -25,10 +25,9 @@ function BoilerPlate() {
   
   return (
     <ThemeProvider theme={theme}>
-    <Container sx={{marginTop: 2, backgroundColor: 'white',}} maxWidth="lg"> 
-    <DrawerAppBar />
-    
-    <Box my={2}>
+    <Container  maxWidth="lg"> 
+    <DrawerAppBar />  
+    <Box my={4}>
     <Typography variant="h1">
      Header 1
     </Typography>
